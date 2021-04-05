@@ -2,10 +2,10 @@
   "generator-jhipster": {
     "applicationType": "monolith",
     "gitCompany": "",
-    "baseName": "jhipsterSampleApplication",
-    "packageName": "com.mycompany.myapp",
-    "packageFolder": "com/mycompany/myapp",
-    "serverPort": 8080,
+    "baseName": "myApp",
+    "packageName": "com.myapp",
+    "packageFolder": "com/myapp",
+    "serverPort": "8080",
     "serviceDiscoveryType": false,
     "authenticationType": "jwt",
     "cacheProvider": "ehcache",
@@ -42,7 +42,9 @@
     "jwtSecretKey": "YTVlN2VlZDNmZGM3MWQ1ODY2YzAzYTQzNjNhNTRjMDAxMDViNTExZTU5YWZiYzFkMzc1ODE4ZmZjMDJhZjU1NjhmN2EyYmFlY2JiN2I2NWQ3MzIwNGVjNzVkNDg3ZTM0MzExOGRiM2Y0YWUxN2Y1ODY5M2IxZWIzYjA4MjZhMmI=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Employee"],
+    "lastLiquibaseTimestamp": 1617650942000
   },
   "git-provider": "GitHub",
   "git-company": "anandcode",
