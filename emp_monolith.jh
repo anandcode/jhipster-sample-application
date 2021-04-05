@@ -1,0 +1,21 @@
+
+application {
+  config {
+    baseName myApp,
+    applicationType monolith,
+    packageName com.myapp,
+    authenticationType jwt,
+    databaseType sql,
+    prodDatabaseType postgresql,
+    clientFramework angular
+  }
+  entities *
+}
+
+entity Employee {
+ id Integer
+ name String required
+ department String required
+ salary Double
+}
+    
